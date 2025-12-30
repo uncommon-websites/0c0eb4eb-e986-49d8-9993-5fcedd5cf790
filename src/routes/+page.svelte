@@ -304,101 +304,115 @@
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Card 1: AI Search -->
+        <!-- Card 1: Co-Creation -->
         <div class="lg:col-span-2 bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden relative group">
             <div class="mb-8">
-                <h3 class="text-xl font-serif mb-2">AI-powered creator search</h3>
-                <p class="text-gray-500 text-sm">Our AI lets you search all platforms - not just one. Simply search and find the right creator ambassadors for your business in minutes.</p>
+                <h3 class="text-xl font-serif mb-2">Co-created with creators</h3>
+                <p class="text-gray-500 text-sm">We partner with content creators to bring their beloved characters to life as premium plush collectibles.</p>
             </div>
-            <div class="bg-purple-50 rounded-xl p-6 h-64 relative border border-purple-100">
-                <!-- Mock Search Bar -->
-                <div class="bg-white rounded-full p-2 shadow-sm flex items-center gap-2 mb-4 w-3/4 mx-auto">
-                    <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center text-purple-600">✨</div>
-                    <div class="text-sm text-gray-400">Tech & Startups</div>
-                    <div class="ml-auto bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold">Search</div>
-                </div>
-                <!-- Results Mockup -->
-                <div class="flex gap-4 justify-center">
-                    <div class="bg-white p-3 rounded-xl shadow-sm w-32">
-                        <div class="w-8 h-8 bg-gray-200 rounded-full mb-2"></div>
-                        <div class="h-2 w-16 bg-gray-100 rounded mb-1"></div>
-                        <div class="h-2 w-10 bg-gray-100 rounded"></div>
+            <div class="bg-pink-50 rounded-xl p-6 h-64 relative border border-pink-100 flex items-center justify-center">
+                <div class="flex items-center gap-8">
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-primary-brand to-primary-light rounded-full mb-3 flex items-center justify-center">
+                            <span class="text-2xl">🎨</span>
+                        </div>
+                        <div class="text-xs font-bold text-gray-600">Creator</div>
                     </div>
-                    <div class="bg-white p-3 rounded-xl shadow-sm w-32">
-                        <div class="w-8 h-8 bg-gray-200 rounded-full mb-2"></div>
-                        <div class="h-2 w-16 bg-gray-100 rounded mb-1"></div>
-                        <div class="h-2 w-10 bg-gray-100 rounded"></div>
+                    <div class="text-3xl text-primary-brand">+</div>
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full mb-3 flex items-center justify-center">
+                            <span class="text-2xl">🧸</span>
+                        </div>
+                        <div class="text-xs font-bold text-gray-600">Glimkin</div>
+                    </div>
+                    <div class="text-3xl text-primary-brand">=</div>
+                    <div class="text-center">
+                        <div class="w-24 h-24 bg-gradient-to-br from-pink-200 to-purple-200 rounded-2xl mb-3 flex items-center justify-center shadow-lg">
+                            <svg viewBox="0 0 100 100" class="w-16 h-16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="30" fill="oklch(0.592 0.249 0.584)"/>
+                                <circle cx="42" cy="45" r="4" fill="white"/>
+                                <circle cx="58" cy="45" r="4" fill="white"/>
+                                <path d="M42 58 Q50 63 58 58" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="text-xs font-bold text-primary-brand">Magic ✨</div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Card 2: Network -->
+        <!-- Card 2: Crowdfunded -->
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden">
             <div class="mb-8">
-                <h3 class="text-xl font-serif mb-2">World's largest B2B creator network</h3>
-                <p class="text-gray-500 text-sm">The largest selection of creators across Newsletters, LinkedIn, YouTube, Instagram, Twitter, and more.</p>
+                <h3 class="text-xl font-serif mb-2">Community-validated demand</h3>
+                <p class="text-gray-500 text-sm">Every plush is crowdfunded first. We only produce what fans actually want.</p>
             </div>
-            <div class="bg-purple-50 rounded-xl h-48 relative overflow-hidden flex items-center justify-center">
-                <div class="absolute inset-0 bg-[url('https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg')] bg-contain bg-no-repeat bg-center opacity-10"></div>
-                <div class="flex gap-2 flex-wrap justify-center p-4">
-                    <span class="bg-white px-2 py-1 rounded shadow-sm text-xs">Newsletter</span>
-                    <span class="bg-white px-2 py-1 rounded shadow-sm text-xs">YouTube</span>
-                    <span class="bg-white px-2 py-1 rounded shadow-sm text-xs">LinkedIn</span>
+            <div class="bg-pink-50 rounded-xl h-48 relative overflow-hidden flex items-center justify-center">
+                <div class="text-center">
+                    <div class="text-5xl font-serif font-bold text-primary-brand mb-2">250%</div>
+                    <div class="text-sm text-gray-600 mb-4">Avg. funding goal reached</div>
+                    <div class="flex gap-1 justify-center">
+                        {#each Array(10) as _}
+                            <div class="w-2 h-12 bg-primary-brand/80 rounded-full"></div>
+                        {/each}
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Card 3: Media Kits -->
+        <!-- Card 3: Premium Quality -->
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden">
-             <div class="h-48 bg-purple-50 rounded-xl mb-6 p-4 relative">
-                <div class="bg-white rounded-xl shadow-sm p-4 h-full w-full relative transform rotate-[-2deg]">
-                    <div class="flex items-center gap-3 mb-3">
-                        <div class="w-10 h-10 bg-gray-200 rounded-full"></div>
-                        <div>
-                            <div class="h-3 w-20 bg-gray-100 rounded mb-1"></div>
-                            <div class="h-2 w-12 bg-gray-100 rounded"></div>
+             <div class="h-48 bg-pink-50 rounded-xl mb-6 p-4 relative flex items-center justify-center">
+                <div class="relative">
+                    <div class="w-32 h-32 bg-gradient-to-br from-primary-brand to-primary-light rounded-2xl shadow-xl flex items-center justify-center transform rotate-[-5deg]">
+                        <svg viewBox="0 0 100 100" class="w-20 h-20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="30" fill="white"/>
+                            <circle cx="42" cy="45" r="4" fill="oklch(0.592 0.249 0.584)"/>
+                            <circle cx="58" cy="45" r="4" fill="oklch(0.592 0.249 0.584)"/>
+                            <path d="M42 58 Q50 63 58 58" stroke="oklch(0.592 0.249 0.584)" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="absolute -top-2 -right-2 bg-yellow-400 text-yellow-900 px-2 py-1 rounded-full text-xs font-bold">★ Premium</div>
+                </div>
+             </div>
+             <h3 class="text-xl font-serif mb-2">Premium materials</h3>
+             <p class="text-gray-500 text-sm">Soft, huggable, and built to last. Each plush is crafted with care and attention to detail.</p>
+        </div>
+
+        <!-- Card 4: Limited Editions -->
+        <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden">
+             <div class="h-48 bg-pink-50 rounded-xl mb-6 p-4 flex items-center justify-center">
+                <div class="text-center space-y-3">
+                    <div class="inline-block bg-primary-brand text-white px-4 py-2 rounded-full text-sm font-bold">
+                        #247 / 500
+                    </div>
+                    <div class="text-xs text-gray-500">Each plush is numbered</div>
+                    <div class="flex gap-2 justify-center">
+                        <div class="w-3 h-3 bg-primary-brand rounded-full"></div>
+                        <div class="w-3 h-3 bg-primary-brand rounded-full"></div>
+                        <div class="w-3 h-3 bg-primary-brand rounded-full"></div>
+                        <div class="w-3 h-3 bg-gray-200 rounded-full"></div>
+                        <div class="w-3 h-3 bg-gray-200 rounded-full"></div>
+                    </div>
+                </div>
+             </div>
+             <h3 class="text-xl font-serif mb-2">First-edition collectibles</h3>
+             <p class="text-gray-500 text-sm">Limited runs mean your plush is truly special. Each one is numbered and authenticated.</p>
+        </div>
+
+        <!-- Card 5: Community -->
+        <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden">
+             <div class="h-48 bg-pink-50 rounded-xl mb-6 p-4 flex items-center justify-center relative">
+                 <div class="grid grid-cols-3 gap-2">
+                    {#each Array(9) as _, i}
+                        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-primary-brand to-primary-light flex items-center justify-center text-white text-xs font-bold opacity-{100 - i * 10}">
+                            {i === 0 ? '😊' : i === 1 ? '🎉' : i === 2 ? '💕' : i === 3 ? '✨' : i === 4 ? '🌟' : i === 5 ? '🎨' : i === 6 ? '🧸' : i === 7 ? '💖' : '🎁'}
                         </div>
-                    </div>
-                    <div class="flex gap-2 mt-4">
-                        <div class="h-16 w-1/3 bg-purple-100 rounded-lg"></div>
-                        <div class="h-16 w-1/3 bg-orange-100 rounded-lg"></div>
-                        <div class="h-16 w-1/3 bg-blue-100 rounded-lg"></div>
-                    </div>
-                </div>
-             </div>
-             <h3 class="text-xl font-serif mb-2">Creator media kits</h3>
-             <p class="text-gray-500 text-sm">Analyze creators with verified stats, past prices, rates, and much more.</p>
-        </div>
-
-        <!-- Card 4: Recommendations -->
-        <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden">
-             <div class="h-48 bg-purple-50 rounded-xl mb-6 p-4 flex items-center justify-center">
-                <div class="bg-white p-4 rounded-xl shadow-sm w-full max-w-[200px]">
-                    <div class="text-xs text-gray-400 mb-2">We need to reach our new AI video tool to growth experts...</div>
-                    <div class="flex justify-end">
-                        <div class="bg-black text-white text-xs px-3 py-1.5 rounded-lg">2.1k/M</div>
-                    </div>
-                </div>
-             </div>
-             <h3 class="text-xl font-serif mb-2">AI creator recommendations</h3>
-             <p class="text-gray-500 text-sm">Tell us your goals - and our AI will build a campaign for you in seconds.</p>
-        </div>
-
-        <!-- Card 5: Evaluate -->
-        <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden">
-             <div class="h-48 bg-purple-50 rounded-xl mb-6 p-4 flex items-center justify-center relative">
-                 <div class="bg-white p-4 rounded-xl shadow-sm w-full max-w-[220px] flex items-center gap-4">
-                    <div class="w-12 h-12 rounded-full bg-gray-200"></div>
-                    <div class="flex-1">
-                        <div class="h-3 w-20 bg-gray-100 rounded mb-2"></div>
-                        <div class="h-2 w-full bg-gray-50 rounded"></div>
-                    </div>
-                    <div class="w-10 h-10 rounded-full border-4 border-green-400 flex items-center justify-center text-xs font-bold text-green-600">98</div>
+                    {/each}
                  </div>
              </div>
-             <h3 class="text-xl font-serif mb-2">Evaluate a creator in seconds</h3>
-             <p class="text-gray-500 text-sm">Our AI evaluates and summarizes their latest content - no more digging in their feeds.</p>
+             <h3 class="text-xl font-serif mb-2">Join the community</h3>
+             <p class="text-gray-500 text-sm">Connect with fellow collectors, share photos, and vote on future designs in our Discord.</p>
         </div>
       </div>
     </div>
@@ -804,8 +818,8 @@
             "How do I get started with Passionfroot?"
         ] as question}
             <div class="border-b border-gray-200 py-4 flex justify-between items-center group cursor-pointer">
-                <span class="font-medium text-lg group-hover:text-orange-brand transition-colors">{question}</span>
-                <div class="w-6 h-6 rounded-full bg-dark text-white flex items-center justify-center text-sm group-hover:bg-orange-brand transition-colors">+</div>
+                <span class="font-medium text-lg group-hover:text-primary-600 transition-colors">{question}</span>
+                <div class="w-6 h-6 rounded-full bg-dark text-white flex items-center justify-center text-sm group-hover:bg-primary-600 transition-colors">+</div>
             </div>
         {/each}
       </div>

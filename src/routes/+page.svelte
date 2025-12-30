@@ -10,86 +10,102 @@
   <!-- Hero Section -->
   <section class="pt-32 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
     <div class="mb-6">
-      <span class="text-xs font-bold tracking-widest text-gray-500 uppercase">The #1 Creator Marketing Platform</span>
+      <span class="text-xs font-bold tracking-widest text-gray-500 uppercase">Crowdfunded Collectible Plush</span>
     </div>
     <h1 class="text-5xl md:text-7xl font-serif mb-6 leading-tight">
-      Where B2B brands scale <br class="hidden md:block" /> influencer marketing
+      Character-driven comfort <br class="hidden md:block" /> fans actually want
     </h1>
     <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-      The fastest and easiest way to do influencer marketing at scale.
-      Find the right creators on all platforms, book, collaborate, and pay – all in one place.
+      Limited-edition plush collectibles inspired by your favorite characters. 
+      Co-created with creators, backed by fans, delivered with love.
     </p>
     <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
-      <Button href="#" type="primary">Get access &rarr;</Button>
-      <Button href="#" type="outline">Talk to us</Button>
+      <Button href="#" type="primary">Back a Plush &rarr;</Button>
+      <Button href="#" type="outline">View Collection</Button>
     </div>
 
     <!-- Hero Image Placeholder -->
-    <div class="relative w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-white aspect-[16/9] mb-16 group">
-      <!-- Mock UI -->
-      <div class="absolute inset-0 bg-gray-50 p-4">
-        <div class="h-full w-full bg-white rounded-xl border border-gray-200 shadow-sm p-6 flex flex-col">
-            <!-- Header of Mock UI -->
-            <div class="flex items-center justify-between mb-6 border-b border-gray-100 pb-4">
-                <div class="flex items-center gap-3">
-                    <div class="w-8 h-8 rounded-full bg-orange-100"></div>
-                    <div class="h-4 w-32 bg-gray-100 rounded"></div>
+    <div class="relative w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-gradient-to-br from-pink-50 to-purple-50 aspect-[16/9] mb-16 group">
+      <!-- Plush Display -->
+      <div class="absolute inset-0 flex items-center justify-center p-8">
+        <div class="grid grid-cols-3 gap-6 w-full max-w-4xl">
+            <!-- Plush 1 -->
+            <div class="bg-white rounded-2xl p-6 shadow-lg transform hover:scale-105 transition-transform">
+                <div class="aspect-square bg-gradient-to-br from-pink-200 to-pink-300 rounded-xl mb-4 flex items-center justify-center">
+                    <svg viewBox="0 0 100 100" class="w-20 h-20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="35" fill="oklch(0.592 0.249 0.584)"/>
+                        <circle cx="40" cy="45" r="4" fill="white"/>
+                        <circle cx="60" cy="45" r="4" fill="white"/>
+                        <path d="M40 60 Q50 65 60 60" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
                 </div>
-                <div class="flex gap-2">
-                    <div class="h-8 w-20 bg-gray-100 rounded"></div>
-                    <div class="h-8 w-20 bg-gray-100 rounded"></div>
+                <div class="text-center">
+                    <div class="h-3 w-24 bg-gray-200 rounded mx-auto mb-2"></div>
+                    <div class="h-2 w-16 bg-gray-100 rounded mx-auto"></div>
                 </div>
             </div>
-            <!-- Content of Mock UI -->
-            <div class="flex-1 grid grid-cols-12 gap-6">
-                <div class="col-span-3 space-y-3">
-                    <div class="h-4 w-full bg-gray-100 rounded"></div>
-                    <div class="h-4 w-3/4 bg-gray-100 rounded"></div>
-                    <div class="h-4 w-5/6 bg-gray-100 rounded"></div>
+            
+            <!-- Plush 2 (Featured) -->
+            <div class="bg-white rounded-2xl p-8 shadow-xl transform scale-110 z-10">
+                <div class="aspect-square bg-gradient-to-br from-purple-200 to-blue-200 rounded-xl mb-4 flex items-center justify-center relative">
+                    <svg viewBox="0 0 100 100" class="w-24 h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="50" cy="55" rx="38" ry="35" fill="oklch(0.718 0.202 349.761)"/>
+                        <circle cx="40" cy="50" r="5" fill="white"/>
+                        <circle cx="60" cy="50" r="5" fill="white"/>
+                        <path d="M38 65 Q50 72 62 65" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                        <ellipse cx="35" cy="45" rx="8" ry="10" fill="oklch(0.718 0.202 349.761)" opacity="0.3"/>
+                        <ellipse cx="65" cy="45" rx="8" ry="10" fill="oklch(0.718 0.202 349.761)" opacity="0.3"/>
+                    </svg>
+                    <div class="absolute -top-2 -right-2 bg-primary-brand text-white text-xs px-2 py-1 rounded-full font-bold">NEW</div>
                 </div>
-                <div class="col-span-9 bg-gray-50 rounded-lg p-4 grid grid-cols-2 gap-4">
-                     <div class="bg-white p-4 rounded shadow-sm h-32"></div>
-                     <div class="bg-white p-4 rounded shadow-sm h-32"></div>
-                     <div class="bg-white p-4 rounded shadow-sm h-32"></div>
-                     <div class="bg-white p-4 rounded shadow-sm h-32"></div>
+                <div class="text-center">
+                    <div class="h-3 w-28 bg-gray-200 rounded mx-auto mb-2"></div>
+                    <div class="h-2 w-20 bg-primary-brand/30 rounded mx-auto"></div>
+                </div>
+            </div>
+            
+            <!-- Plush 3 -->
+            <div class="bg-white rounded-2xl p-6 shadow-lg transform hover:scale-105 transition-transform">
+                <div class="aspect-square bg-gradient-to-br from-yellow-200 to-orange-200 rounded-xl mb-4 flex items-center justify-center">
+                    <svg viewBox="0 0 100 100" class="w-20 h-20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 80C70 80 80 65 80 50C80 35 70 20 50 20C30 20 20 35 20 50C20 65 30 80 50 80Z" fill="oklch(0.656 0.241 354.308)"/>
+                        <circle cx="38" cy="45" r="4" fill="white"/>
+                        <circle cx="62" cy="45" r="4" fill="white"/>
+                        <path d="M38 58 Q50 63 62 58" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="text-center">
+                    <div class="h-3 w-24 bg-gray-200 rounded mx-auto mb-2"></div>
+                    <div class="h-2 w-16 bg-gray-100 rounded mx-auto"></div>
                 </div>
             </div>
         </div>
       </div>
       
       <!-- Decorative Elements -->
-      <div class="absolute -left-12 bottom-12 w-24 h-24 bg-orange-brand rounded-full blur-2xl opacity-20"></div>
+      <div class="absolute -left-12 bottom-12 w-24 h-24 bg-primary-brand rounded-full blur-2xl opacity-20"></div>
       <div class="absolute -right-12 top-12 w-32 h-32 bg-purple-400 rounded-full blur-2xl opacity-20"></div>
-
-      <!-- Cartoon Character (Orange Blob) -->
-      <div class="absolute bottom-[-20px] left-[-40px] w-32 h-32 z-10 hidden md:block">
-          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M50 90C75 90 90 70 90 50C90 30 70 10 50 10C30 10 10 30 10 50C10 70 25 90 50 90Z" fill="#FF5D2A"/>
-            <circle cx="35" cy="40" r="5" fill="white"/>
-            <circle cx="65" cy="40" r="5" fill="white"/>
-            <path d="M35 60 Q50 70 65 60" stroke="white" stroke-width="3" stroke-linecap="round"/>
-            <!-- Arms -->
-            <path d="M10 50 Q-5 30 15 20" stroke="#FF5D2A" stroke-width="8" stroke-linecap="round"/>
-          </svg>
-      </div>
     </div>
 
-    <!-- Logos -->
+    <!-- Social Proof -->
     <div class="text-center">
-      <p class="text-sm text-gray-500 mb-6">Powering thousands of marketing teams at the fastest growing companies in tech</p>
-      <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-        <!-- Linktree -->
-        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-green-600 rounded-full"></div> Linktree</span>
-        <!-- Raycast -->
-        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-red-500 rounded"></div> Raycast</span>
-        <!-- Gamma -->
-        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-yellow-500 rounded-tr-xl"></div> Gamma</span>
-        <!-- Superhuman -->
-        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-purple-600 rounded-full"></div> Superhuman</span>
-        <!-- Framer -->
-        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-black rounded-tl-xl"></div> Framer</span>
-        <!-- Rippling -->
-        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-yellow-400 rounded-full"></div> Rippling</span>
+      <p class="text-sm text-gray-500 mb-6">Trusted by fans and creators worldwide</p>
+      <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+        <div class="flex items-center gap-2 text-gray-600">
+          <svg class="w-5 h-5 text-primary-brand" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <span class="font-semibold">4.9/5</span>
+          <span class="text-sm">from 2,400+ backers</span>
+        </div>
+        <div class="h-8 w-px bg-gray-300"></div>
+        <div class="text-gray-600">
+          <span class="font-bold text-2xl text-dark">12K+</span>
+          <span class="text-sm ml-2">Community Members</span>
+        </div>
+        <div class="h-8 w-px bg-gray-300"></div>
+        <div class="text-gray-600">
+          <span class="font-bold text-2xl text-dark">25+</span>
+          <span class="text-sm ml-2">Successful Campaigns</span>
+        </div>
       </div>
     </div>
   </section>
@@ -98,78 +114,108 @@
   <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl md:text-5xl font-serif text-center mb-16 max-w-3xl mx-auto">
-        Get direct access to the top B2B creators in the world - on all platforms
+        From fan-favorite characters to collectible comfort
       </h2>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
         <div class="bg-gray-50 p-8 rounded-2xl text-center">
-          <div class="text-4xl font-serif font-medium mb-2">300 Million</div>
-          <div class="text-xs font-bold text-gray-400 tracking-widest uppercase">Target Audience</div>
+          <div class="text-4xl font-serif font-medium mb-2">First-Edition</div>
+          <div class="text-xs font-bold text-gray-400 tracking-widest uppercase">Limited Collectibles</div>
         </div>
         <div class="bg-gray-50 p-8 rounded-2xl text-center">
-          <div class="text-4xl font-serif font-medium mb-2">2 Billion</div>
-          <div class="text-xs font-bold text-gray-400 tracking-widest uppercase">Monthly Impressions</div>
+          <div class="text-4xl font-serif font-medium mb-2">Co-Created</div>
+          <div class="text-xs font-bold text-gray-400 tracking-widest uppercase">With Creators</div>
         </div>
         <div class="bg-gray-50 p-8 rounded-2xl text-center">
-          <div class="text-4xl font-serif font-medium mb-2">60%</div>
-          <div class="text-xs font-bold text-gray-400 tracking-widest uppercase">Lower CPC than LinkedIn Ads*</div>
+          <div class="text-4xl font-serif font-medium mb-2">Fan-Backed</div>
+          <div class="text-xs font-bold text-gray-400 tracking-widest uppercase">Crowdfunded Drops</div>
         </div>
       </div>
 
-      <!-- Creator Cards Carousel Mockup -->
+      <!-- Plush Collection Carousel -->
       <div class="flex gap-4 overflow-hidden relative">
         <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white to-transparent z-10"></div>
         <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-white to-transparent z-10"></div>
         
         <div class="flex gap-4 animate-scroll">
-            <!-- Card 1 -->
-            <div class="w-64 h-80 bg-pink-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
-                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
-                    <div class="w-2 h-2 bg-pink-500 rounded-full"></div> TikTok
+            <!-- Plush 1 -->
+            <div class="w-64 h-80 bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl flex-shrink-0 relative overflow-hidden group flex items-center justify-center">
+                <svg viewBox="0 0 100 100" class="w-32 h-32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="35" fill="oklch(0.592 0.249 0.584)"/>
+                    <circle cx="40" cy="45" r="5" fill="white"/>
+                    <circle cx="60" cy="45" r="5" fill="white"/>
+                    <path d="M40 60 Q50 65 60 60" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold">
+                    Limited Edition
                 </div>
                 <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-white">
-                    <div class="font-bold">Tech Daily</div>
-                    <div class="text-xs opacity-80">500k Followers</div>
+                    <div class="font-bold">Cozy Companion</div>
+                    <div class="text-xs opacity-80">Series 1</div>
                 </div>
             </div>
-            <!-- Card 2 -->
-            <div class="w-64 h-80 bg-orange-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
-                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
-                    <div class="w-2 h-2 bg-orange-500 rounded-full"></div> Newsletter
+            <!-- Plush 2 -->
+            <div class="w-64 h-80 bg-gradient-to-br from-purple-100 to-blue-200 rounded-2xl flex-shrink-0 relative overflow-hidden group flex items-center justify-center">
+                <svg viewBox="0 0 100 100" class="w-32 h-32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="50" cy="55" rx="38" ry="35" fill="oklch(0.718 0.202 349.761)"/>
+                    <circle cx="40" cy="50" r="5" fill="white"/>
+                    <circle cx="60" cy="50" r="5" fill="white"/>
+                    <path d="M38 65 Q50 72 62 65" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+                <div class="absolute top-4 left-4 bg-primary-brand text-white px-2 py-1 rounded-full text-xs font-bold">
+                    Funding Now
                 </div>
                 <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-white">
-                    <div class="font-bold">The Hustle</div>
-                    <div class="text-xs opacity-80">2M Subscribers</div>
+                    <div class="font-bold">Dream Friend</div>
+                    <div class="text-xs opacity-80">Series 2</div>
                 </div>
             </div>
-            <!-- Card 3 -->
-            <div class="w-64 h-80 bg-red-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
-                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
-                    <div class="w-2 h-2 bg-red-500 rounded-full"></div> YouTube
+            <!-- Plush 3 -->
+            <div class="w-64 h-80 bg-gradient-to-br from-yellow-100 to-orange-200 rounded-2xl flex-shrink-0 relative overflow-hidden group flex items-center justify-center">
+                <svg viewBox="0 0 100 100" class="w-32 h-32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 80C70 80 80 65 80 50C80 35 70 20 50 20C30 20 20 35 20 50C20 65 30 80 50 80Z" fill="oklch(0.656 0.241 354.308)"/>
+                    <circle cx="38" cy="45" r="5" fill="white"/>
+                    <circle cx="62" cy="45" r="5" fill="white"/>
+                    <path d="M38 58 Q50 63 62 58" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold">
+                    Coming Soon
                 </div>
                 <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-white">
-                    <div class="font-bold">MKBHD</div>
-                    <div class="text-xs opacity-80">18M Subscribers</div>
+                    <div class="font-bold">Sunshine Pal</div>
+                    <div class="text-xs opacity-80">Series 3</div>
                 </div>
             </div>
-             <!-- Card 4 -->
-            <div class="w-64 h-80 bg-blue-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
-                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
-                    <div class="w-2 h-2 bg-blue-500 rounded-full"></div> LinkedIn
+             <!-- Plush 4 -->
+            <div class="w-64 h-80 bg-gradient-to-br from-blue-100 to-cyan-200 rounded-2xl flex-shrink-0 relative overflow-hidden group flex items-center justify-center">
+                <svg viewBox="0 0 100 100" class="w-32 h-32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="50" cy="52" rx="36" ry="38" fill="oklch(0.525 0.223 3.958)"/>
+                    <circle cx="42" cy="48" r="4" fill="white"/>
+                    <circle cx="58" cy="48" r="4" fill="white"/>
+                    <path d="M42 62 Q50 68 58 62" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold">
+                    Limited Edition
                 </div>
                 <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-white">
-                    <div class="font-bold">Sahil Bloom</div>
-                    <div class="text-xs opacity-80">1M Followers</div>
+                    <div class="font-bold">Ocean Buddy</div>
+                    <div class="text-xs opacity-80">Series 1</div>
                 </div>
             </div>
-             <!-- Card 5 -->
-            <div class="w-64 h-80 bg-purple-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
-                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
-                    <div class="w-2 h-2 bg-purple-500 rounded-full"></div> Podcast
+             <!-- Plush 5 -->
+            <div class="w-64 h-80 bg-gradient-to-br from-green-100 to-emerald-200 rounded-2xl flex-shrink-0 relative overflow-hidden group flex items-center justify-center">
+                <svg viewBox="0 0 100 100" class="w-32 h-32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="34" fill="oklch(0.459 0.187 3.815)"/>
+                    <circle cx="41" cy="46" r="4" fill="white"/>
+                    <circle cx="59" cy="46" r="4" fill="white"/>
+                    <path d="M41 60 Q50 66 59 60" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold">
+                    Sold Out
                 </div>
                 <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-white">
-                    <div class="font-bold">My First Million</div>
-                    <div class="text-xs opacity-80">100k Downloads</div>
+                    <div class="font-bold">Forest Friend</div>
+                    <div class="text-xs opacity-80">Series 1</div>
                 </div>
             </div>
         </div>
@@ -177,65 +223,72 @@
     </div>
   </section>
 
-  <!-- Disrupted Section -->
+  <!-- Problem/Solution Section -->
   <section class="bg-dark text-white py-24 overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl md:text-5xl font-serif text-center mb-4">Traditional marketing is <br /> being disrupted</h2>
-      <p class="text-center text-gray-400 mb-16">We're entering a new era of personality-led growth.</p>
+      <h2 class="text-3xl md:text-5xl font-serif text-center mb-4">Fan merch deserves <br /> better than this</h2>
+      <p class="text-center text-gray-400 mb-16">Generic products don't capture the magic fans feel for their favorite characters.</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-        <!-- The Old Way -->
+        <!-- The Problem -->
         <div>
-          <h3 class="text-xl font-serif mb-2">The Old Way</h3>
+          <h3 class="text-xl font-serif mb-2">Generic Merch</h3>
           <p class="text-gray-400 text-sm mb-8 leading-relaxed">
-            Marketers try to build their brand through paid search, outbound, and SEO - but the channels have become crowded and expensive.
+            Low-effort creator products flood the market. Mass-produced, soulless items that don't reflect the care fans have for characters they love.
           </p>
           <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700 relative">
-             <div class="flex justify-between items-end h-40 gap-2">
-                <div class="w-full bg-red-500/20 rounded-t h-[40%] relative group"><div class="absolute -top-6 left-1/2 -translate-x-1/2 text-xs text-red-400">$20</div></div>
-                <div class="w-full bg-red-500/40 rounded-t h-[60%] relative group"><div class="absolute -top-6 left-1/2 -translate-x-1/2 text-xs text-red-400">$45</div></div>
-                <div class="w-full bg-red-500/60 rounded-t h-[80%] relative group"><div class="absolute -top-6 left-1/2 -translate-x-1/2 text-xs text-red-400">$80</div></div>
-                <div class="w-full bg-red-500/80 rounded-t h-[90%] relative group"><div class="absolute -top-6 left-1/2 -translate-x-1/2 text-xs text-red-400">$120</div></div>
-                <div class="w-full bg-red-500 rounded-t h-full relative group"><div class="absolute -top-6 left-1/2 -translate-x-1/2 text-xs text-red-400 font-bold">$150</div></div>
+             <div class="space-y-3">
+                <div class="flex items-center gap-3 opacity-50">
+                    <div class="w-12 h-12 bg-gray-700 rounded"></div>
+                    <div class="flex-1">
+                        <div class="h-3 bg-gray-700 rounded mb-2"></div>
+                        <div class="h-2 bg-gray-700 rounded w-2/3"></div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 opacity-50">
+                    <div class="w-12 h-12 bg-gray-700 rounded"></div>
+                    <div class="flex-1">
+                        <div class="h-3 bg-gray-700 rounded mb-2"></div>
+                        <div class="h-2 bg-gray-700 rounded w-2/3"></div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 opacity-50">
+                    <div class="w-12 h-12 bg-gray-700 rounded"></div>
+                    <div class="flex-1">
+                        <div class="h-3 bg-gray-700 rounded mb-2"></div>
+                        <div class="h-2 bg-gray-700 rounded w-2/3"></div>
+                    </div>
+                </div>
              </div>
-             <div class="mt-4 flex justify-between text-xs text-gray-500">
-                <span>2014</span>
-                <span>2024</span>
-             </div>
-             <div class="absolute top-4 left-4 text-xs font-bold text-gray-300">CAC (Customer Acquisition Cost)</div>
+             <div class="absolute top-4 right-4 text-xs font-bold text-red-400">❌ Mass-produced</div>
           </div>
         </div>
 
-        <!-- The New Way -->
+        <!-- The Solution -->
         <div>
-          <h3 class="text-xl font-serif mb-2">The New Way</h3>
+          <h3 class="text-xl font-serif mb-2">Glimkin Collectibles</h3>
           <p class="text-gray-400 text-sm mb-8 leading-relaxed">
-            Hyper-scale your brand and top-of-funnel growth through trusted creator audiences. Cut through the noise and build quality inbound.
+            Limited-edition, co-created plush that capture character essence. Each drop is validated by community demand before production.
           </p>
           <div class="relative h-64 flex items-center justify-center">
-             <!-- Central Character -->
-             <div class="relative z-10 w-24 h-24">
-                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M50 90C75 90 90 70 90 50C90 30 70 10 50 10C30 10 10 30 10 50C10 70 25 90 50 90Z" fill="#FF5D2A"/>
-                    <circle cx="35" cy="40" r="5" fill="white"/>
-                    <circle cx="65" cy="40" r="5" fill="white"/>
-                    <path d="M35 60 Q50 70 65 60" stroke="white" stroke-width="3" stroke-linecap="round"/>
+             <!-- Central Plush -->
+             <div class="relative z-10 w-32 h-32 bg-gradient-to-br from-primary-brand to-primary-light rounded-full flex items-center justify-center shadow-2xl">
+                <svg viewBox="0 0 100 100" class="w-20 h-20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="35" fill="white"/>
+                    <circle cx="40" cy="45" r="5" fill="oklch(0.592 0.249 0.584)"/>
+                    <circle cx="60" cy="45" r="5" fill="oklch(0.592 0.249 0.584)"/>
+                    <path d="M40 60 Q50 65 60 60" stroke="oklch(0.592 0.249 0.584)" stroke-width="3" stroke-linecap="round"/>
                 </svg>
              </div>
-             <!-- Orbiting Icons -->
-             <div class="absolute inset-0 animate-spin-slow">
-                <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-4 w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white text-xs">Li</div>
-                <div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-4 w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center text-white text-xs">Ig</div>
-                <div class="absolute left-0 top-1/2 -translate-x-4 -translate-y-1/2 w-10 h-10 bg-red-500 rounded-full flex items-center justify-center text-white text-xs">Yt</div>
-                <div class="absolute right-0 top-1/2 translate-x-4 -translate-y-1/2 w-10 h-10 bg-black rounded-full flex items-center justify-center text-white text-xs">X</div>
+             <!-- Floating Elements -->
+             <div class="absolute top-8 left-8 bg-primary-brand/20 backdrop-blur px-3 py-1.5 rounded-full text-xs font-bold border border-primary-brand/30">
+                ✨ Co-created
              </div>
-             <!-- Megaphone Effect -->
-             <div class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-20 opacity-50">
-                <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
-                    <path d="M0 50 L100 20" stroke="#FF5D2A" stroke-width="2" stroke-dasharray="4 4"/>
-                    <path d="M0 50 L100 50" stroke="#FF5D2A" stroke-width="2" stroke-dasharray="4 4"/>
-                    <path d="M0 50 L100 80" stroke="#FF5D2A" stroke-width="2" stroke-dasharray="4 4"/>
-                </svg>
+             <div class="absolute bottom-8 right-8 bg-primary-brand/20 backdrop-blur px-3 py-1.5 rounded-full text-xs font-bold border border-primary-brand/30">
+                🎯 Limited
+             </div>
+             <div class="absolute bottom-12 left-12 bg-primary-brand/20 backdrop-blur px-3 py-1.5 rounded-full text-xs font-bold border border-primary-brand/30">
+                💝 Fan-backed
              </div>
           </div>
         </div>
@@ -243,11 +296,11 @@
     </div>
   </section>
 
-  <!-- Features Section 1 (Purple) -->
+  <!-- Features Section 1 -->
   <section class="py-24 bg-cream">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl md:text-5xl font-serif text-center mb-16 max-w-2xl mx-auto">
-        Find the best creators for your brand - fast.
+        How Glimkin brings characters to life
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
